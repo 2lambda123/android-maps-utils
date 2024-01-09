@@ -1,0 +1,181 @@
+repo_name: 2lambda123/android-maps-utils
+report_id: d864c580e706e750392641e4d696aca5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:58:52+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/lint-checks/build.gradle
+  detection_source: lint-checks/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-23 23:17:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/.github/workflows/dependabot.yml
+  detection_source: ".github/workflows/dependabot.yml"
+  last_updated_by: googlemaps-bot
+  last_updated_on: 2022-05-10 21:33:46.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Enrique López Mañas
+  last_updated_on: 2022-12-09 17:18:05.000000000 Z
+- name: Robolectric
+  description: An open-source testing framework for Android
+  website_url: http://robolectric.org/
+  version: 4.7.3
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2022/OavapKft_400x400.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/library/build.gradle
+  detection_source: library/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-12-01 23:38:24.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils
+  detection_source: Repo Metadata
+- name: com.android.tools.lint:lint
+  description: Lint tools
+  version: 30.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/lint-checks/build.gradle
+  detection_source: lint-checks/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-23 23:17:22.000000000 Z
+- name: com.android.tools:testutils
+  description: API used by lint testing infrastructure
+  version: 30.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/lint-checks/build.gradle
+  detection_source: lint-checks/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-23 23:17:22.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/library/build.gradle
+  detection_source: library/build.gradle
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2021-02-15 07:44:34.000000000 Z
+- name: net.sf.kxml:kxml2
+  description: KXML is a small XML pull parser, specially designed for constrained
+    environments such as Applets, Personal Java or MIDP devices
+  version: 2.3.0
+  license: BSD-3-Clause,Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/library/build.gradle
+  detection_source: library/build.gradle
+  last_updated_by: Sean Barbeau
+  last_updated_on: 2020-03-09 19:20:31.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: Chris Arriola
+  last_updated_on: 2021-07-07 20:36:19.000000000 Z
+- name: org.robolectric:robolectric
+  description: An alternative Android testing framework
+  version: 4.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/android-maps-utils/blob/main/library/build.gradle
+  detection_source: library/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-12-01 23:38:24.000000000 Z
