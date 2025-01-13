@@ -57,7 +57,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:18.2.0'
     implementation project(':library')
 
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     // [END_EXCLUDE]
 }
